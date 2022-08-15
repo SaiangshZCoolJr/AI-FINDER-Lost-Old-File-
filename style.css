@@ -1,0 +1,64 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: large;
+}
+
+.obj{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.inputclass{
+    margin: 5px;
+    border-radius: 5px;
+    width: 20%;
+    color: aqua;
+    background-color: black;
+    border: 4px dashed lightblue;
+}
+
+
+.heading{
+    width: 100%;
+    margin: 0;
+    font-style: inherit;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+
+.note{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3{
+    color: lightblue;
+    margin: 0;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 90px;
+
+}
+
+@keyframes example{
+from{
+    box-shadow: 5px 5px 30px violet;
+}    
+to{
+    box-shadow: 3px 3px 15px purple;
+}
+}
+
